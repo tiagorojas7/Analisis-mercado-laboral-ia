@@ -79,6 +79,7 @@ El resultado final son dos dashboards interactivos diseñados para diferentes pe
 
 ### 1. Dashboard: Salary Intelligence Report
 Enfocado en la distribucion geografica y el promedio salarial.
+
 <img width="871" height="490" alt="image" src="https://github.com/user-attachments/assets/0f365dd6-bbf6-4f04-802e-9535a29dcfd2" />
 
 Insight Clave: La brecha salarial entre un perfil Junior (EN) y un Experto (EX) es de casi el 200%, con una fuerte concentración de companias de alto salario en Estados Unidos y Europa.
@@ -88,9 +89,11 @@ Enfocado en la relación entre demanda y valor.
 <img width="871" height="490" alt="image" src="https://github.com/user-attachments/assets/009d84bf-7a00-4d9c-bb30-2d3bb63cfd4f" />
 
 Insight Clave: Identifiqué que herramientas como docker y Deep Learning, scala son habilidades de "nicho de alto valor", mientras que Python y SQL son habilidades base esenciales con mayor volumen pero salarios más estandarizados.
+
 > [!NOTE]
 > Estos dos dashboards cuentan con diferentes segmentadores por categoria para que el usuario pueda visualizar la informacion que necesite fluida y comodamente.
-> 
+
+
 💡 Conclusiones y Recomendaciones Especializadas
 Para profesionales: La especialización en herramientas de despliegue y nube (como Docker o deep leraning ) ofrece el mejor retorno de inversión salarial.
 
