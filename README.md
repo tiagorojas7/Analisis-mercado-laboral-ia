@@ -48,6 +48,13 @@ Para optimizar el rendimiento y seguir las mejores prácticas de bases de datos,
 * **`salaries`**: Datos financieros y compensación anual.
 * **`skills`**: Relación detallada de las habilidades técnicas requeridas por puesto.
 
+* ### 📊 Flujo de Transformación de Datos
+| Etapa | Archivo Fuente | Destino Final |
+| :--- | :--- | :--- |
+| **Ingesta** | `ai_job_dataset.csv` (Raw) | DataFrame Pandas |
+| **Procesamiento** | Script Python | 4 Tablas Normalizadas (Processed) |
+| **Carga** | CSVs Procesados | Base de Datos MySQL |
+
 > [!NOTE]
 > Esta estructura permite una mayor escalabilidad y facilita el análisis de relaciones complejas (uno a muchos) entre vacantes y habilidades.
 ---
