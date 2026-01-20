@@ -10,6 +10,8 @@ En el ecosistema tecnológico actual, la IA es el área de mayor crecimiento. Si
 * ¿Qué tecnologías pagan mejor y cuánta presencia tienen en el mercado?
 * ¿Estamos compitiendo por talento masivo o de nicho?
 * ¿Es factible contratar perfiles Junior o el mercado exige exclusivamente expertos?
+* Flexibilidad Laboral: ¿Existe un equilibrio entre las modalidades de trabajo (Remoto, Híbrido y Presencial) o el sector de IA muestra una inclinación predominante hacia alguna de ellas?
+* Identificación de Nichos de Valor: Utilizando la relación Salario vs. Presencia, ¿qué herramientas se categorizan como "nichos de alta rentabilidad" (poca oferta pero pago elevado) frente a herramientas de "dominio masivo"?
 
 Este análisis busca cerrar esa brecha de información utilizando un flujo de trabajo profesional de datos.
 
