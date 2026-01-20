@@ -62,7 +62,7 @@ Una vez conectada mediante la libreria mysqlachademy desde python y estructurada
 Utilicé SQL para cruzar el promedio salarial con el volumen de vacantes, permitiéndome identificar las 10 habilidades que realmente mueven el mercado.
 
 ```sql
--- Validación de presencia de la habilidad mejor pagada
+-- Validación de presencia de la 5 habilidades mejor pagadas
 SELECT 
     s.skill_name, 
     COUNT(DISTINCT s.job_id) AS total_vacantes,
@@ -71,7 +71,7 @@ FROM skills
 JOIN salaries ON skills.job_id = salaries.job_id
 GROUP BY skills.skill_name
 ORDER BY promedio_salarial DESC
-limit 10;
+limit 5;
 ```
 ---
 ## 📊 Fase 3: Visualización e Insights (Power BI)
