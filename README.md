@@ -85,6 +85,7 @@ Insight Clave: La brecha salarial entre un perfil Junior (EN) y un Experto (EX) 
 
 ### 2. Dashboard: Strategic Talent & Technology Report
 Enfocado en la relación entre demanda y valor.
+<img width="871" height="490" alt="image" src="https://github.com/user-attachments/assets/009d84bf-7a00-4d9c-bb30-2d3bb63cfd4f" />
 
 Insight Clave: Identifiqué que herramientas como docker y Deep Learning, scala son habilidades de "nicho de alto valor", mientras que Python y SQL son habilidades base esenciales con mayor volumen pero salarios más estandarizados.
 > [!NOTE]
