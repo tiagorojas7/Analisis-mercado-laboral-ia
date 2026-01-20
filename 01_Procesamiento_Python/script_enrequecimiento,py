@@ -1,0 +1,10 @@
+#Enrequecimiento del dataset con metricas
+#-1 calcular los dias que esta abierta la vacante 
+df["time_to_apply"]=df["application_deadline"]-df["posting_date"]
+df['time_to_apply'] = df['time_to_apply'].dt.days
+# Segmentamos los tipos de salarios en tres categorias. 
+df['salary_segment'] = pd.qcut(df['salary_usd'], q=3, labels=["low", 'Medium', 'high'])
+# Identificamos si el trabajo es internacional o local 
+df["is_international"]=df["company_location"]!=df["employee_residence"]
+# convertimos habilidades en una LISTA para un analisis mas facil
+df["skills_list"]=df["required_skills"].apply(lambda x:[s.strip()for s in str(x).split(",")])
