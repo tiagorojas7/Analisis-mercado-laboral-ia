@@ -1,0 +1,21 @@
+#Exportamos nuestros DATASETS a MYSQL 
+from sqlachademy import create_engine
+database = {
+    'host': '127.0.0.1',          
+    'user': 'root',                
+    'password': 'root',     
+    'database': 'ai_job_analitics',
+    'port': 3306                   
+}
+
+connection_string = f"mysql+mysqlconnector://{database['user']}:{database['password']}@{database['host']}:{database['port']}/{database['database']}"
+con=create_engine(connection_string)
+
+print("EXPORTANDO ARCHIVOS A TU BASE DE DATOS SQL...")
+
+dim_jobs.to_sql("jobs", con=connection_string, if_exists='replace', index=False)
+dim_company.to_sql('companies', con=connection_string, if_exists='replace', index=False)
+real_job_skills.to_sql('skills', con=connection_string, if_exists='replace', index=False)
+fact_salaries.to_sql("salaries", con=connection_string, if_exists='replace', index=False)
+
+print("Archivos exportados correctamente a tu base de datos Sql")
