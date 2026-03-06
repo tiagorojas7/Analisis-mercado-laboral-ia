@@ -112,6 +112,6 @@ Para empresas: El mercado de IA está altamente distribuido; ofrecer modalidades
 
 LinkedIn: [Tiago Rojas ](https://www.linkedin.com/in/tiago-rojas/)
 
-Email: Tiagoroajs1602@gmail.com
+Email: Tiagorojas1602@gmail.com
 
 Portfolio: https://github.com/tiagorojas7?tab=repositories
